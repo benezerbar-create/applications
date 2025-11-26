@@ -35,12 +35,23 @@
         app:layout_constraintTop_toBottomOf="@id/textView"
         app:srcCompat="@drawable/apple" />
 
+    <SeekBar
+        android:id="@+id/brightnessSeekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="200"
+        android:progress="100"
+        app:layout_constraintTop_toBottomOf="@id/myImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
     <Button
         android:id="@+id/myButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="התחל ספירת קלוריות"
-        app:layout_constraintTop_toBottomOf="@id/myImageView"
+        app:layout_constraintTop_toBottomOf="@id/brightnessSeekBar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="30dp"/>

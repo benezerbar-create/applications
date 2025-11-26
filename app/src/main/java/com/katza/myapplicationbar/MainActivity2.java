@@ -19,7 +19,6 @@ public class MainActivity2 extends AppCompatActivity {
 
         totalCaloriesText = findViewById(R.id.totalCaloriesText);
 
-        // כפתורי המאכלים
         setupFoodButton(R.id.appleButton, 52);
         setupFoodButton(R.id.bananaButton, 89);
         setupFoodButton(R.id.breadButton, 80);
@@ -30,7 +29,6 @@ public class MainActivity2 extends AppCompatActivity {
         setupFoodButton(R.id.orangeButton, 62);
         setupFoodButton(R.id.carrotButton, 41);
 
-        // כפתור איפוס
         Button resetButton = findViewById(R.id.resetButton);
         resetButton.setOnClickListener(new View.OnClickListener() {
             @Override
